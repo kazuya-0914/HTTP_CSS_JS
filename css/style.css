@@ -1,0 +1,18 @@
+/* --- メイン --- */
+.main {
+  margin: 0 2%;
+}
+
+/* --- DOMコード --- */
+#dom-code {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
+
+/* --- 天気予報 --- */
+#weather-html {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
